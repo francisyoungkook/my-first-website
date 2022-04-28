@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <title>WEB1 - html</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <p align="middle">
+  <h1><a href="index.html"> 경쟁참여 </a></h1>
+  </p>
+
+
+
+  <div id="grid">
+    <ol>
+      <li><a href="1.html" class="saw" id="active">계정 생성</a></li>
+      <li><a href="2.html" class="saw">경쟁 참여</a></li>
+      <li><a href="3.html">평가 투표</a></li>
+    </ol>
+
+
+  <div id="article">
+    여러분의 이메일로 계정을 생성하세요. 이 계정으로 경쟁에 참여하고 투표하게 됩니다.
+
+    <p align="middle">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/2cL9e3cOKiY?start=123" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </p>
+
+  </div>
+
+
+  </div>
+</body>

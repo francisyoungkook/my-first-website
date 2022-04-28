@@ -9,6 +9,18 @@
 <body>
 <p align="middle">
 <h1><a href="index.html">이미지 배틀</a></h1>
+<input id="night_day" type="button" value="night" onclick="
+    var target = document.querySelector('body');
+    if(this.value === 'night'){
+      target.style.backgroundColor = 'black';
+      target.style.color = 'white';
+      this.value = 'day';
+    } else {
+      target.style.backgroundColor = 'white';
+      target.style.color = 'black';
+      this.value = 'night';
+    }
+  ">
 </p>
 
 <div id="grid">

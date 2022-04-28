@@ -1,7 +1,7 @@
 img { max-width: 100%; display: block; margin: 0px 0px 500px 0px;
     }
   a {
-    color:black;
+    color:blue;
     text-decoration: none;
   }
   h1 {
@@ -11,6 +11,7 @@ img { max-width: 100%; display: block; margin: 0px 0px 500px 0px;
        border-color: red;
        border-style: solid;
        padding: 10px;
+       color: red;
 
      }
   ol {
@@ -42,3 +43,11 @@ img { max-width: 100%; display: block; margin: 0px 0px 500px 0px;
                  font-size:40px;
            }
                         }
+
+#display-image{
+                        width: 400px;
+                        height: 225px;
+                        border: 1px solid black;
+                        background-position: center;
+                        background-size: cover;
+              }
